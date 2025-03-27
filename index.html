@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="deco-circle deco-circle-1"></div>
+    <div class="deco-circle deco-circle-2"></div>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Personal Website</a>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#certificates">Sertifikat</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="animated-text gradient-text">Nama Saya Fachrio Ferdinandz Firdaus</h1>
+                    <h3>Ini adalah website personal saya.</h3>
+                    <a href="#contact" class="btn btn-glow">Hubungi Saya</a>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-img-container">
+                        <img src="Komponen/Rio.png" alt="Profile Picture" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Saya seorang Mahasiswa yang memiliki ketertarikan di bidang it ,terbiasa menggunakan berbagai software diantaranya seperti Microsoft word, Microsoft power point, Microsoft excel, visual studio code dan Adobe , figma , oracle database. Jujur, disiplin, mampu bekerja dalam tim maupun individu. Pernah aktif dalam organisasi mahasiswa dan pengalaman project seperti Frontend Developer dalam program Internship. </p>
+                </div>
+                <div class="skills">
+                    <h3>Kemampuan Saya</h3>
+                    <ul>
+                        <li><i class="fas fa-pencil-ruler"></i> UI/UX Design</li>
+                        <li><i class="fas fa-project-diagram"></i> System Analyst</li>
+                        <li><i class="fas fa-database"></i> Database Analyst</li>
+                        <li><i class="fas fa-code"></i> Front-end Basics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2>Sertifikat Saya</h2>
+            <div class="certificate-grid">
+                <div class="certificate-card">
+                    <img src="Komponen/ITCC.jpg" alt="Certificate 1">
+                    <h3>Finalis ITCC UI/UX Competition </h3>
+                    <p>Diberikan oleh Universitas Udayana</p>
+                </div>
+                <div class="certificate-card">
+                    <img src="Komponen/DOT.jpg" alt="Certificate 2">
+                    <h3>Certificate of Competency (Laravel)</h3>
+                    <p>Diberikan oleh PT DOT </p>
+                </div>
+                <div class="certificate-card">
+                    <img src="Komponen/LKMTTD.jpg" alt="Certificate 3">
+                    <h3>Participant of LKMTTD</h3>
+                    <p>Diberikan oleh BEM Fasilkom Unej</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Hubungi Saya</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Nama Kamu" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email Kamu" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Pesan" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-glow">Kirim Pesan</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/fachrio-ferdinandz-3b2b58233/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://dribbble.com/fachrio"><i class="fab fa-dribbble "></i></a>
+                <a href="https://www.instagram.com/rio.frdndzz/"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/fachrio12"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Fachrio Ferdinandz Firdaus</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
